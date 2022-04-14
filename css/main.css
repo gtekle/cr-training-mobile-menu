@@ -52,6 +52,38 @@ header {
   color: white;
 }
 
+.mobile-nav {
+  display: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(11, 40, 200, 0.65);
+  backdrop-filter: blur(5px);
+  z-index: 30;
+}
+
+.mobile-nav .btn-menu-close {
+  position: absolute;
+  top: 5%;
+  right: 10%;
+  color: #fff;
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.mobile-nav ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  margin-top: 10%;
+}
+
+.mobile-nav ul li {
+  padding: 10px 0;
+}
+
 main {
   display: flex;
   flex-direction: column;
