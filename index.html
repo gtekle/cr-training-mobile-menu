@@ -5,13 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+    integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous" />
     <link rel="icon" href="./favicon.ico" />
+    <script src="./js/index.js"></script>
     <title>Aziz Mejri - Portfolio</title>
   </head>
   <body>
     <header>
       <h1 id="logo">Tekle Gebreyohannes</h1>
-      <button type="button" class="menu-bars">
+      <button onclick="openMenu()" type="button" id="menu-bars" class="menu-bars">
         <i class="fas fa-bars"></i>
       </button>
       <nav id="desktop-nav">
@@ -25,10 +28,10 @@
           </li>
         </ul>
       </nav>
-      <nav class="mobile-nav">
-        <a href="#" class="btn-menu-close">
+      <nav id="mobile-nav" class="mobile-nav">
+        <button onclick="closeMenu()" type="button" class="btn-menu-close">
           <i class="fas fa-times"></i>
-        </a>
+        </button>
         <ul>
           <li>Portoflio</li>
           <li>About</li>
