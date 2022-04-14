@@ -50,13 +50,8 @@ header {
 .mobile-nav ul {
   display: block;
   list-style: none;
-
-  /* margin-top: 10%; */
+  margin-top: 10%;
 }
-
-/* .mobile-nav ul li {
-  padding: 10px 0;
-} */
 
 #desktop-nav,
 #desktop-nav ul {
